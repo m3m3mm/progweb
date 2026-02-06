@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+.h2-orange {
+    color: orange;
+}
+
+.centered {
+    text-align: center;
+}
+
+.nom-a-droite {
+    text-align: right;
+}
+
+.navy-text {
+    color: navy;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+th,td {
+    padding: 5px;
+    text-align: center;
+}
+
+.num {
+    width: 10%;
+}
+.titre {
+    width: 50%;
+}
+.revenu {
+    width: 40%;
+}
+
+.titre-font {
+    font-variant: all-small-caps;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(80%, 80%, 90%);
+}
+
+tr:hover {
+    background-color: #1c780c
+}
